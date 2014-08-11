@@ -1,0 +1,17 @@
+{
+  "name": "lodlaundromat-js-parser",
+  "version": "0.0.0",
+  "description": "Example javascript parser for lod laundromat output files",
+  "main": "parse.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Laurens Rietveld <laurens.rietveld@vu.nl>",
+  "license": "ISC",
+  "dependencies": {
+    "zlib": "^1.0.5",
+    "readline": "0.0.3",
+    "dev-null": "^0.1.1",
+    "request": "^2.40.0"
+  }
+}
