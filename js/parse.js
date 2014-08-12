@@ -60,6 +60,7 @@ var parseTriple = function(triple) {
 
 if (process.argv.length <= 2) {
 	console.log("Please pass the gzip data source (either URL or file) as argument")
+	process.exit(1);
 }
 var rl = readline.createInterface({
 	input: (process.argv[2].indexOf("http") == 0? request(process.argv[2]): fs.createReadStream(process.argv[2])).pipe(zlib.createUnzip()),
